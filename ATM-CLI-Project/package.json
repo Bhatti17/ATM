@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@types/inquirer": "^9.0.6",
+    "@types/node": "^20.8.7"
+  },
+  "name": "mmy03-atm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mmy-ATM": "dist/app.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "@inquirer/type": "^1.1.5",
+    "@types/chalk-animation": "^1.6.2",
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.11",
+    "mmy03-atm": "^1.0.0",
+    "undici-types": "^5.25.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
